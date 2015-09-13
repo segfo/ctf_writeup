@@ -1,0 +1,8 @@
+#!/bin/sh
+# gdbserver:22222
+# gdb -> gdbserver
+
+# socat:11111
+# pwnScript -> socat
+
+gdbserver localhost:22222 ./phobos
